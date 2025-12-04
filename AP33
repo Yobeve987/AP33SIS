@@ -1,0 +1,3 @@
+grep -A15 -B10 "EDIFICIO A" consumos.txt > file1
+grep -A2 -B2 -W "165" file1 > a
+grep -A4 -w "40" file1 > b
